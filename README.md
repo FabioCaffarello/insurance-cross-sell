@@ -34,7 +34,7 @@ This project will be developed following the SCRUM methodology together with CRI
 <a href="https://airtable.com/shrY6q2rIuUowLpyn">link to the kanban board of the tasks that were planned</a>
 
 <div align="center">
-	<img src="img/CRISP_DM.png" alt="drawing" width="80%"/>
+	<img src="img/CRISP_DM.png" alt="drawing" width="60%"/>
 </div>
 
 # About Data
