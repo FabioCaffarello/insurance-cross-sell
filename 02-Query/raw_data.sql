@@ -11,5 +11,5 @@ SELECT u.id
                         ,i.vintage
                         ,i.response
                FROM pa004.users AS u 
-               LEFT JOIN pa004.vehicle AS v ON u.id = v.id 
-               LEFT JOIN pa004.insurance AS i ON u.id = i.id
+               INNER JOIN pa004.vehicle AS v ON u.id = v.id 
+               INNER JOIN pa004.insurance AS i ON u.id = i.id
