@@ -1,6 +1,8 @@
 #Virtual Documents
 .virtual_documents/*
 
+# catboost
+01-Notebooks/catboost_info/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
