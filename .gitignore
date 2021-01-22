@@ -1,6 +1,9 @@
 #Virtual Documents
 .virtual_documents/*
 
+# zip folder
+zip/*
+
 # catboost
 01-Notebooks/catboost_info/*
 
