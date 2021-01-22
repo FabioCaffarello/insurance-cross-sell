@@ -7,6 +7,9 @@ zip/*
 # catboost
 01-Notebooks/catboost_info/*
 
+# 00-Data/cycle_01
+00-Data/cycle_01/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
