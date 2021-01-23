@@ -8,7 +8,7 @@ from pipeline.Pipeline import insuranse_cross_sell
 
 
 
-model = jb.load(open('model/model_xgb.pkl.z', 'rb'))
+model = jb.load(open('model/model_xgb.pkl', 'rb'))
 
 
 
@@ -45,5 +45,5 @@ def youtubePredict():
 
 if __name__ == '__main__':
     port = os.environ.get( 'PORT', 5000)
-    app.run(host='localhost', port=port)
-    #app.run(host='0.0.0.0', port=port)
+    #app.run(host='localhost', port=port)
+    app.run(host='0.0.0.0', port=port)
