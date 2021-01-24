@@ -8,7 +8,7 @@ from pipeline.Pipeline import insuranse_cross_sell
 
 
 
-model = jb.load(open('model/model_xgb.pkl', 'rb'))
+model = jb.load(open('model/model_xgb.pkl.z', 'rb'))
 
 
 

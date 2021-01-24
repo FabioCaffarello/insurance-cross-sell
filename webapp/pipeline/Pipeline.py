@@ -10,7 +10,7 @@ class insuranse_cross_sell(object):
     def __init__(self):
         # self.home_path          = 'D:/01-DataScience/04-Projetos/00-Git/insurance-cross-sell/webapp/'
         self.home_path          = ''
-        self.age_stage_encoder  = jb.load(open(self.home_path + 'parameter/age_stage.pkl', 'rb'))
+        self.age_stage_encoder  = jb.load(open(self.home_path + 'parameter/age_stage.pkl.z', 'rb'))
     
     def data_cleaning(self, df):
         # snakecase
