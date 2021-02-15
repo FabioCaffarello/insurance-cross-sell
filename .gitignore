@@ -7,10 +7,6 @@ zip/*
 # catboost
 notebooks/catboost_info/*
 
-## webapp
-webapp/*
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
